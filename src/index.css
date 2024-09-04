@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.upskill-uiux {
+  background: #090C09;
+
+  .font-montserrat {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .text-gradient {
+    background: var(--Group-Linear, linear-gradient(87deg, #49D043 -0.56%, #FFB912 119.91%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-gradient2 {
+    background: linear-gradient(92deg, #49D043 -5.09%, #FFB912 44.42%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h1 {
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  h2 {
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+}
+
+@media (width<1280px) {
+  .upskill-uiux {}
+}
+
+@media (width<1024px) {
+  .upskill-uiux {
+    h1 {
+      font-size: 50px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (width<768px) {
+  .upskill-uiux {
+    h1 {
+      font-size: 44px;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (width<640px) {
+  .upskill-uiux {}
+}
+
+@media (width<480px) {
+  .upskill-uiux {
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+}
+
+@media (width<375px) {
+  .upskill-uiux {}
+}
+
+
+/*
+
+
+@media (width<1280px) {
+    .upskill-uiux {}
+  }
+  
+  @media (width<1024px) {
+    .upskill-uiux {
+      
+    }
+  }
+  
+  @media (width<768px) {
+    .upskill-uiux {
+     
+    }
+  }
+  
+  @media (width<640px) {
+    .upskill-uiux {}
+  }
+  
+  @media (width<480px) {
+    .upskill-uiux {
+      
+    }
+  
+  }
+  
+  @media (width<375px) {
+    .upskill-uiux {}
+  }
+
+
+*/

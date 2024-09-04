@@ -1,0 +1,22 @@
+.company-heading {
+    color: #FFF;
+    text-align: center;
+    width: 807.782px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 58px;
+}
+
+.companies-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+
+}
+
+@media(width<780px) {
+    .company-heading {
+        padding-bottom: 33px;
+    }
+}

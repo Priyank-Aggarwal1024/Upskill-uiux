@@ -1,0 +1,169 @@
+.inter-heading {
+    width: 462px;
+    max-width: 100%;
+    padding-bottom: 37px;
+}
+
+.intern-main {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.intern-right,
+.intern-left {
+    width: 50%;
+}
+
+.intern-right img {
+    width: 100%;
+}
+
+.intern-left {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.intern-card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 21px 27px;
+    border-radius: 12px;
+    border: 1px solid #49D043;
+    background: linear-gradient(87deg, rgba(73, 208, 67, 0.03) -0.56%, rgba(255, 185, 18, 0.03) 119.91%);
+    backdrop-filter: blur(44.79999923706055px);
+}
+
+.intern-c-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.intern-card-heading {
+
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.interncc-desc {
+    color: var(--Woodsmoke-50, #F5F5F6);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.intern-card2 .interncc-desc {
+    opacity: .7;
+    width: calc(100% - 40px);
+
+}
+
+.intern-card2 {
+    padding: 19px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 12px;
+    border: 1px solid #49D043;
+    background: linear-gradient(87deg, rgba(73, 208, 67, 0.03) -0.56%, rgba(255, 185, 18, 0.03) 119.91%);
+    backdrop-filter: blur(44.79999923706055px);
+}
+
+.intern-card2-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.intern-card2-main .intern-cc-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.intern-card2-main .intern-cc-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (width<1280px) {
+    .upskill-uiux {}
+}
+
+@media (width<1024px) {
+    .upskill-uiux {
+        .intern-main {
+            flex-direction: column-reverse;
+        }
+
+        .intern-left,
+        .intern-right {
+            width: 100%;
+        }
+    }
+}
+
+@media (width<768px) {
+    .upskill-uiux {
+        .intern-card-heading {
+            font-size: 24px;
+        }
+
+        .intern-card2 {
+            padding: 13px 19px;
+        }
+
+
+
+
+    }
+}
+
+@media (width<640px) {
+    .upskill-uiux {
+        .intern-card1 {
+            padding: 14px 16px;
+        }
+
+        .intern-card-heading {
+            font-size: 20px;
+        }
+
+        .intern-cc-icon {
+            width: 48px;
+            height: 48px;
+        }
+
+        .intern-card2-main .intern-cc-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .intern-cc-icon img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .interncc-desc {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (width<480px) {
+    .upskill-uiux {}
+
+}
+
+@media (width<375px) {
+    .upskill-uiux {}
+}

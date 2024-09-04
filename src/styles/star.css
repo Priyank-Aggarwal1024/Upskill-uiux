@@ -1,0 +1,154 @@
+.paid-carousel-star-div {
+    display: flex;
+    gap: 5px;
+}
+
+.paid-carousel-star {
+    width: 25.264px;
+    height: 25.264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paid-carousel-previous-arrow {
+    display: flex;
+    width: 44.212px;
+    height: 44.212px;
+    padding: 9.474px 9.475px 9.474px 9.473px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    border: 1.053px solid var(--grey, #5D6165);
+    background: rgba(255, 255, 255, 0.00);
+    margin-right: 15px;
+    flex: 10;
+}
+
+.paid-carousel-arrow {
+    flex: 1;
+}
+
+.paid-carousel-previous-arrow>svg {
+    width: 25.264px;
+    height: 25.264px;
+    flex-shrink: 0;
+}
+
+.paid-carousel-next-arrow {
+    display: flex;
+    width: 44.212px;
+    height: 44.212px;
+    padding: 9.474px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 15px;
+
+    border: 1.053px solid var(--grey, #5D6165);
+    background: rgba(255, 255, 255, 0.00);
+    /* background: var(--Linear, linear-gradient(90deg, #800080 3.92%, #B466C1 52.78%, #800080 92.42%)); */
+
+}
+
+.paid-carousel-next-arrow:hover>svg>path,
+.paid-carousel-previous-arrow:hover>svg>path {
+    stroke: white;
+
+}
+
+.paid-carousel-next-arrow:hover,
+.paid-carousel-previous-arrow:hover {
+    border-radius: 46px;
+    background: var(--Linear, linear-gradient(87deg, #49D043 -0.56%, #FFB912 119.91%));
+}
+
+.paid-carousel-next-arrow>svg {
+    width: 25.264px;
+    height: 25.264px;
+    border-radius: 50%;
+
+    flex-shrink: 0;
+}
+
+@media (width<1080px) {
+    .upskill-uiux {
+
+        .paid-carousel-star>svg {
+            width: 18px;
+            height: 18px;
+
+        }
+
+        .paid-carousel-star {
+            width: 18px;
+            height: 18px;
+
+        }
+
+        .paid-carousel-star-div {
+            gap: 2px;
+        }
+
+        .paid-carousel-next-arrow {
+            margin-left: 8px;
+        }
+
+        .paid-carousel-previous-arrow {
+            margin-right: 8px;
+        }
+    }
+
+}
+
+@media (width<480px) {
+    .upskill-uiux {
+
+        .paid-carousel-star-div {
+            flex-wrap: wrap;
+
+        }
+
+        .paid-carousel-star,
+        .paid-carousel-star>svg {
+            width: 14.574px;
+            height: 14.574px;
+        }
+
+        .paid-carousel-tct-l {
+            gap: 8px;
+        }
+
+        .paid-carousel-next-arrow,
+        .paid-carousel-previous-arrow {
+            width: 28px;
+            height: 28px;
+            /* margin: 0; */
+            position: relative;
+            padding: 10px;
+
+            border-radius: 50%;
+        }
+
+
+        .paid-carousel-previous-arrow>svg {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .paid-carousel-next-arrow>svg {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

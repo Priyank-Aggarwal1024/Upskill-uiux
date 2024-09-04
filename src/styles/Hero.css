@@ -1,0 +1,272 @@
+.hero {
+    padding: 99px 74px 64px;
+}
+
+.hero-lt-iit {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 38px;
+    border: 1px solid #49D043;
+    background: rgba(255, 207, 51, 0.13);
+    width: fit-content;
+    /* 19.2px */
+}
+
+.hero-left {
+    width: 511px;
+    max-width: 100%;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+}
+
+
+.hero-left-inner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right {
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-para {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.hero-start-learning {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    /* 32px */
+    padding: 13px 61.5px;
+    border-radius: 41px;
+    background: linear-gradient(87deg, #49D043 -0.56%, #FFB912 119.91%);
+    width: fit-content;
+}
+
+.hero-right {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.hero-lap,
+.hero-lap img {
+    width: 100%;
+}
+
+.hero-right-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.hero-rb-left {
+    display: flex;
+    gap: 12px;
+}
+
+.hero-rb-left img {
+    width: 78px;
+    height: 78px;
+}
+
+.hero-rb-right-lang {
+    padding: 9.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-rb-right {
+    display: flex;
+    align-items: center;
+}
+
+.hero-rbr-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-rbrr-top {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 14.4px */
+}
+
+.hero-rbrr-bottom {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+@media (width<1280px) {
+    .upskill-uiux {
+        .hero {
+            padding: 66px 64px 48px;
+        }
+
+        .hero-rb-left {
+            gap: 6px;
+        }
+
+        .hero-rb-left img {
+            width: 65px;
+            height: 65px;
+        }
+    }
+}
+
+@media (width<1024px) {
+    .upskill-uiux {
+        .hero {
+            flex-direction: column;
+            gap: 62px;
+        }
+
+        .hero-left-inner,
+        .hero-right {
+            width: 100%;
+        }
+
+        .hero-para {
+            display: none;
+        }
+
+        .hero {
+            padding: 35px 48px 32px;
+        }
+
+        .hero-start-learning {
+            padding: 13px 31.5px;
+            font-size: 18px;
+        }
+
+        .hero-left-inner {
+            justify-content: start;
+        }
+
+        .hero-left {
+            gap: 18px;
+        }
+
+        .hero-rb-left img {
+            width: 56px;
+            height: 56px;
+        }
+    }
+}
+
+@media (width<768px) {
+    .upskill-uiux {
+        .hero {
+            padding: 35px 32px 32px;
+        }
+
+        .hero-rbrr-top {
+            font-size: 9px;
+        }
+
+        .hero-rbrr-bottom {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (width<640px) {
+    .upskill-uiux {
+        .hero-start-learning {
+            font-size: 16px;
+        }
+
+        .hero-right {
+            gap: 12px;
+        }
+
+        .hero-rb-left img {
+            width: 42px;
+            height: 42px;
+        }
+
+        .hero-rbrr-top {
+            font-size: 6px;
+        }
+
+        .hero-rbrr-bottom {
+            font-size: 9px;
+        }
+    }
+}
+
+@media (width<480px) {
+    .upskill-uiux {
+        .hero-lt-iit {
+            font-size: 14px;
+        }
+
+        .hero {
+            padding: 35px 16px 32px;
+        }
+
+        .hero-rb-left {
+            gap: 3px;
+        }
+    }
+
+}
+
+@media (width<375px) {
+    .upskill-uiux {
+        .hero-right-bottom {
+            flex-wrap: wrap;
+        }
+
+        .hero-rb-left {
+            flex-wrap: wrap;
+        }
+    }
+}
