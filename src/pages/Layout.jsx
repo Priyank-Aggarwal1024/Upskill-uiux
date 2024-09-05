@@ -23,6 +23,7 @@ function Layout() {
     const [mobnav, setMobNav] = useState(false)
     return (
         <>
+
             <div className="upskill-uiux-layout">
                 <Navbar setMobNav={setMobNav} />
                 <Hero />
@@ -41,6 +42,13 @@ function Layout() {
                 <Testimonials />
                 <Faq />
                 <Footer />
+                <div className="bottom-sticky-bar">
+                    <div className="bottom-sticky-bar-outer">
+                        <div className="text-gradient bsb-99">₹99  </div>
+                        <div className="bsb-1000">₹1000</div>
+                        <div className="bsb-join-now">Join now</div>
+                    </div>
+                </div>
             </div>
             {mobnav && <div className="mobnav">
                 <div className="mob-nav-top">
@@ -53,6 +61,7 @@ function Layout() {
                     <Link className="mobnav-link text-white" to={"/faq"}>FAQ</Link>
                 </div>
             </div>}
+
         </>
     );
 }

@@ -1,22 +1,50 @@
-.company-heading {
-    color: #FFF;
-    text-align: center;
-    width: 807.782px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding-bottom: 58px;
-}
+.upskill-uiux {
+    .company-heading {
+        color: #FFF;
+        text-align: center;
+        width: 807.782px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-bottom: 58px;
+    }
 
-.companies-card {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    overflow-x: auto;
+    .company-section.main-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
+    .companies-card {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: auto;
+
+    }
+
+    .companies-card img {
+        padding-left: 74px;
+    }
 }
 
 @media(width<780px) {
-    .company-heading {
-        padding-bottom: 33px;
+    .upskill-uiux {
+        .company-heading {
+            padding-bottom: 33px;
+        }
+
+        .companies-card img {
+            padding-left: 48px;
+        }
     }
+
+}
+
+@media(width<580px) {
+
+    .upskill-uiux {
+        .companies-card img {
+            padding-left: 25px;
+        }
+    }
+
 }

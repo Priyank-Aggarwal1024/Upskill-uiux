@@ -1,65 +1,63 @@
-.curriculum {
-    padding: 80px 64px 90px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
+.upskill-uiux {
+    .curriculum {
+        padding: 80px 64px 90px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 
-.curriculum-main {
-    width: 837px;
-    max-width: 100%;
-}
+    .curriculum-main {
+        width: 837px;
+        max-width: 100%;
+    }
 
-.curriculum-heading {
-    text-align: center;
-    padding-bottom: 40px;
-}
+    .curriculum-heading {
+        text-align: center;
+        padding-bottom: 40px;
+    }
 
-.curriculum-list {
-    display: flex;
-    padding: 16px 27px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 9px;
-    background: linear-gradient(87deg, rgba(73, 208, 67, 0.20) -0.56%, rgba(255, 185, 18, 0.20) 119.91%);
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    /* 28.8px */
-}
+    .curriculum-list {
+        display: flex;
+        padding: 16px 27px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 9px;
+        background: linear-gradient(87deg, rgba(73, 208, 67, 0.20) -0.56%, rgba(255, 185, 18, 0.20) 119.91%);
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 28.8px */
+    }
 
-.curriculum-list-box {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
+    .curriculum-list-box {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
 
-.curriculum-casestudy {
-    border-radius: 6.111px;
-    border: 1px solid #49D043;
-    background: linear-gradient(87deg, rgba(73, 208, 67, 0.20) -0.56%, rgba(255, 185, 18, 0.20) 119.91%);
-    position: relative;
-}
+    .curriculum-casestudy {
+        border-radius: 6.111px;
+        border: 1px solid #49D043;
+        background: linear-gradient(87deg, rgba(73, 208, 67, 0.20) -0.56%, rgba(255, 185, 18, 0.20) 119.91%);
+        position: relative;
+    }
 
-.curriculum-casestudy span {
-    padding-left: 9px;
-}
+    .curriculum-casestudy span {
+        padding-left: 9px;
+    }
 
-.curriculum-cs-left {
-    position: absolute;
-    width: 15px;
-    height: 100%;
-    left: 0;
-    background: var(--Group-Linear, linear-gradient(87deg, #49D043 -0.56%, #FFB912 119.91%));
-    border-top-left-radius: 6.11px;
-    border-bottom-left-radius: 6.11px;
-}
-
-@media (width<1280px) {
-    .upskill-uiux {}
+    .curriculum-cs-left {
+        position: absolute;
+        width: 15px;
+        height: 100%;
+        left: 0;
+        background: var(--Group-Linear, linear-gradient(87deg, #49D043 -0.56%, #FFB912 119.91%));
+        border-top-left-radius: 6.11px;
+        border-bottom-left-radius: 6.11px;
+    }
 }
 
 @media (width<1024px) {

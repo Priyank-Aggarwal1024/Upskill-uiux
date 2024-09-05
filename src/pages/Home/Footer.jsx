@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <footer className="main-section footer">
+      <footer className="footer">
         <Link to="/">
           <img src={footerlogo} alt="Footer Logo" />
         </Link>
@@ -12,13 +12,13 @@ function Footer() {
           <div className="footer-link">
             <h4 className="footer-heading">Contact us at</h4>
             <Link to="tel:+917404318177" className="foot-link text-white">
-              +917404318177
+              +91 98500 50050
             </Link>
             <Link
               to="mailto:upskillmafia@gmail.com"
-              className="foot-link text-white"
+              className="foot-link text-white wrap"
             >
-              upskillmafia@gmail.com
+              support@upskillmafia.com
             </Link>
           </div>
           <div className="footer-link">
