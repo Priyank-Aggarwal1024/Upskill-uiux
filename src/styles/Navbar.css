@@ -61,14 +61,14 @@
     }
 
     .nav-register-btn {
-        width: 172px;
+        width: 152px;
         height: 100%;
         border-radius: 41px;
         border: 1px solid #FFF;
-        height: 58px;
+        height: 45px;
         color: #FFF;
         font-family: Montserrat;
-        font-size: 20px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 700;
         line-height: 160%;
@@ -76,13 +76,13 @@
     }
 
     .nav-getstarted-btn {
-        width: 187px;
-        height: 58px;
+        width: 167px;
+        height: 45px;
         border-radius: 41px;
         background: linear-gradient(87deg, #49D043 -0.56%, #FFB912 119.91%);
         color: #000;
         font-family: Montserrat;
-        font-size: 20px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 700;
         line-height: 160%;
@@ -130,7 +130,7 @@
         }
 
         .nav-div {
-            padding: 13px 22px 22px 17px;
+            padding: 13px 22px 13px 17px;
         }
     }
 }

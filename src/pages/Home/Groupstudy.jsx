@@ -1,4 +1,5 @@
-import { dash, gs1, gs2, gs3 } from '../../assets';
+import { gs1, gs2, gs3 } from '../../assets';
+import VideoComp from '../../components/reusable/VideoComp';
 import '../../styles/TaskLearning.css'
 function Groupstudy() {
     return (
@@ -7,11 +8,7 @@ function Groupstudy() {
                 <div className="tasklearning-top">
                     <div className="tasklearning-t-right">
                         <h2 className="text-white "><span className="text-gradient">Group Study with </span>your Peers</h2>
-                        <div className="tasklearning-t-left dashimg-small">
-                            <div className="tasklearning-dashimg-inner ">
-                                <img src={dash} alt="Dashboard" />
-                            </div>
-                        </div>
+                        <VideoComp classN="dashimg-small tasklearning-t-left " link="https://www.youtube.com/embed/swSeye91dVg?si=vstx7KHzEkP84uSU" />
                         <div className="tasklearning-tr-main">
                             <div className="tasklearning-trm-cards">
                                 <div className="tasklearning-trm-card">
@@ -41,11 +38,7 @@ function Groupstudy() {
                             </div>
                         </div>
                     </div>
-                    <div className="tasklearning-t-left dashimg-large">
-                        <div className="tasklearning-dashimg-inner ">
-                            <img src={dash} alt="Dashboard" />
-                        </div>
-                    </div>
+                    <VideoComp classN="dashimg-large tasklearning-t-left " link="https://www.youtube.com/embed/swSeye91dVg?si=vstx7KHzEkP84uSU" />
 
                 </div>
             </div>

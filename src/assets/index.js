@@ -52,7 +52,8 @@ import ii1 from './ii1.svg'
 import ii2 from './ii2.svg'
 import dblRight from './dbl-right.svg'
 import cross from './cross.svg'
+import lap from './lap.svg'
 export {
     logo, ham, laphero, hi1, hi2, hi3, hi4, hi5, lang,
-    pi1, pi2, pi3, pi4, pi5, pi6, dash, tl1, tl2, tl3, gs1, gs2, gs3, hac1, hac2, maindash, S3, S4, S5, S563, Days, Icon3d, Podium, Coin, certificate, checked, unchecked, footerlogo, m1, m2, m3, m4, m5, m6, m7, m8, m9, me1, me2, ipad, mac, ii1, ii2, dblRight, cross
+    pi1, pi2, pi3, pi4, pi5, pi6, dash, tl1, tl2, tl3, gs1, gs2, gs3, hac1, hac2, maindash, S3, S4, S5, S563, Days, Icon3d, Podium, Coin, certificate, checked, unchecked, footerlogo, m1, m2, m3, m4, m5, m6, m7, m8, m9, me1, me2, ipad, mac, ii1, ii2, dblRight, cross, lap
 }

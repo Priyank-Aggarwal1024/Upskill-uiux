@@ -1,4 +1,4 @@
-import { hi1, hi2, hi3, hi4, hi5, lang, laphero } from '../../assets';
+import { hi1, hi2, hi3, hi4, hi5, lang, lap } from '../../assets';
 import '../../styles/Hero.css'
 function Hero() {
     return (
@@ -24,7 +24,8 @@ function Hero() {
                 </div>
                 <div className="hero-right">
                     <div className="hero-lap">
-                        <img src={laphero} alt="Hero lap" />
+                        <img src={lap} alt="Hero lap" />
+                        <iframe className="hero-video-img" src="https://www.youtube.com/embed/ekUNJ33IEQw?autoplay=1&amp;mute=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fupskillmafia.com" title="Upskill Mafia Virtual Campus Explanation Video #upskillmafia #campus #mernstack #tutorial #viral" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-gtm-yt-inspected-186654238_30="true" id="466221186" data-gtm-yt-inspected-186654238_36="true" data-gtm-yt-inspected-186654238_38="true" data-gtm-yt-inspected-186654238_40="true" data-gtm-yt-inspected-186654238_42="true" data-gtm-yt-inspected-186654238_44="true"></iframe>
                     </div>
                     <div className="hero-right-bottom">
                         <div className="hero-rb-left">

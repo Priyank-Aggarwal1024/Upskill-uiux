@@ -6,11 +6,11 @@ function Coding() {
     const data = [
         {
             price: "99",
-            str: "Month",
+            str: "Monthly",
         },
         {
             price: "249",
-            str: "Quarter",
+            str: "3 Months",
         },
     ];
     // console.log(String(data[0].str).slice())
@@ -34,7 +34,7 @@ function Coding() {
                 <div className="coding-left">
                     <div className="coding-left-top">
                         <div className="coding-top-heading text-gradient">
-                            {toggle ? data[1].str : data[0].str}ly Payment Plan
+                            {toggle ? data[1].str : data[0].str} Payment Plan
                         </div>
                         <div className="pay-toggle-div">
                             <div className="money-saver">Money saver</div>
@@ -79,8 +79,8 @@ function Coding() {
                                         alt="Checked Img"
                                     />
                                 )}
-                                <span>{"Quarterly"} </span>
-                                <span className="mon3">(3months)</span>
+                                <span className="mon-3">{"3 Months"} </span>
+                                {/* <span className="mon3">(3months)</span> */}
                             </p>
                         </div>
                         <div className="coding-medium-div">

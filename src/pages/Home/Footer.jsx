@@ -1,54 +1,54 @@
-import { footerlogo } from "../../assets";
+import { logo } from "../../assets";
 import "../../styles/footer.css";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <footer className="footer">
+      <footer className="main-section footer">
         <Link to="/">
-          <img src={footerlogo} alt="Footer Logo" />
+          <img src={logo} alt="Footer Logo" />
         </Link>
         <div className="footer-links">
           <div className="footer-link">
             <h4 className="footer-heading">Contact us at</h4>
             <Link to="tel:+917404318177" className="foot-link text-white">
-              +91 98500 50050
+              +917404318177
             </Link>
             <Link
               to="mailto:upskillmafia@gmail.com"
-              className="foot-link text-white wrap"
+              className="foot-link text-white"
             >
-              support@upskillmafia.com
+              upskillmafia@gmail.com
             </Link>
           </div>
           <div className="footer-link">
-            <Link className="foot-link" to="/">
-              UI/UX Resources
-            </Link>
-            <Link className="foot-link" to="/">
-              Peer Learning
-            </Link>
+            <a className="foot-link" href="https://upskillmafia.com/contactus">
+              Contact us
+            </a>
+            <a className="foot-link" href="https://upskillmafia.com/aboutus">
+              About US
+            </a>
 
-            <Link className="foot-link" to="/">
-              Community
-            </Link>
+            <a className="foot-link" href="https://upskillmafia.com/refund">
+              Refund
+            </a>
 
-            <Link className="foot-link" to="/">
-              Certification
-            </Link>
+            <a className="foot-link" href="https://upskillmafia.com/privacy">
+              Privacy Policy
+            </a>
           </div>
           <div className="footer-link">
-            <Link className="foot-link" to="/">
-              Hackathons
-            </Link>
+            <a className="foot-link" href="https://upskillmafia.com/delivery">
+              Shipping Policy
+            </a>
 
-            <Link className="foot-link" to="/">
-              Daily Challenges
-            </Link>
+            <a className="foot-link" href="https://upskillmafia.com/termsofuse">
+              Terms of use
+            </a>
           </div>
         </div>
         <p className="copyright">
-          Copyright © 2023 upskillmafia. All rights reserved
+          Copyright © 2024 Tutedude private limited. All rights reserved
         </p>
       </footer>
     </>

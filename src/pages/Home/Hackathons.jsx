@@ -1,17 +1,14 @@
-import { dash, hac1, hac2 } from '../../assets';
+import { hac1, hac2 } from '../../assets';
+import VideoComp from '../../components/reusable/VideoComp';
 import '../../styles/TaskLearning.css'
 function Hackathons() {
     return (
         <>
             <div className="tasklearning">
-                <div className="tasklearning-top">
+                <div className="tasklearning-top hackathon-top">
                     <div className="tasklearning-t-right">
                         <h2 className="text-white "><span className="text-gradient">Hackathons </span>and challenges</h2>
-                        <div className="tasklearning-t-left dashimg-small">
-                            <div className="tasklearning-dashimg-inner ">
-                                <img src={dash} alt="Dashboard" />
-                            </div>
-                        </div>
+                        <VideoComp classN="dashimg-small tasklearning-t-left " link="https://www.youtube.com/embed/6SI5w1YOFzA?si=gBG1Kl1Af1qRQODN" />
                         <div className="tasklearning-tr-main">
                             <div className="tasklearning-trm-cards">
                                 <div className="tasklearning-trm-card">
@@ -33,12 +30,7 @@ function Hackathons() {
                             </div>
                         </div>
                     </div>
-                    <div className="tasklearning-t-left dashimg-large">
-                        <div className="tasklearning-dashimg-inner ">
-                            <img src={dash} alt="Dashboard" />
-                        </div>
-                    </div>
-
+                    <VideoComp classN="dashimg-large tasklearning-t-left " link="https://www.youtube.com/embed/6SI5w1YOFzA?si=gBG1Kl1Af1qRQODN" />
                 </div>
             </div>
         </>

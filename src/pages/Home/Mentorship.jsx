@@ -1,4 +1,5 @@
-import { dash, me1, me2, tl2 } from '../../assets';
+import { me1, me2, tl2 } from '../../assets';
+import VideoComp from '../../components/reusable/VideoComp';
 import '../../styles/Mentorship.css'
 function Mentorship() {
     return (
@@ -6,11 +7,7 @@ function Mentorship() {
             <div className="mentor">
                 <h2 className="text-white mentor-heading">Live 1:1 <span className="text-gradient">mentorship</span></h2>
                 <div className="mentor-top">
-                    <div className="mentor-t-left">
-                        <div className="mentor-dashimg-inner ">
-                            <img src={dash} alt="Dashboard" />
-                        </div>
-                    </div>
+                    <VideoComp classN="mentor-t-left" link="https://www.youtube.com/embed/hSPNvXXRk04?si=iloMD8lLK9Q9Z9S4" />
                     <div className="mentor-t-right">
                         <div className="mentor-tr-main">
                             <div className="mentor-trm-cards">

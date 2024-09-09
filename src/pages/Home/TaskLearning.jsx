@@ -1,22 +1,15 @@
-import { dash, tl1, tl2, tl3 } from '../../assets'
+import { tl1, tl2, tl3 } from '../../assets'
+import VideoComp from '../../components/reusable/VideoComp'
 import '../../styles/TaskLearning.css'
 function TaskLearning() {
     return (
         <>
             <div className="tasklearning">
                 <div className="tasklearning-top">
-                    <div className="tasklearning-t-left dashimg-large">
-                        <div className="tasklearning-dashimg-inner ">
-                            <img src={dash} alt="Dashboard" />
-                        </div>
-                    </div>
+                    <VideoComp classN="dashimg-large tasklearning-t-left " link="https://www.youtube.com/embed/tmFfRvn6CyQ?autoplay=0&si=SHQoG0afqQse-742&enablejsapi=1&origin=https%3A%2F%2Fupskillmafia.com" />
                     <div className="tasklearning-t-right">
                         <h2 className="text-white ">Task based <span className="text-gradient">Learning</span></h2>
-                        <div className="tasklearning-t-left dashimg-small">
-                            <div className="tasklearning-dashimg-inner ">
-                                <img src={dash} alt="Dashboard" />
-                            </div>
-                        </div>
+                        <VideoComp classN="dashimg-small tasklearning-t-left " link="https://www.youtube.com/embed/tmFfRvn6CyQ?autoplay=0&si=SHQoG0afqQse-742&enablejsapi=1&origin=https%3A%2F%2Fupskillmafia.com" />
                         <div className="tasklearning-tr-main">
                             <div className="tasklearning-trm-cards">
                                 <div className="tasklearning-trm-card">

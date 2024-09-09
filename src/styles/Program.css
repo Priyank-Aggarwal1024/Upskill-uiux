@@ -1,6 +1,6 @@
 .upskill-uiux {
     .program {
-        padding: 64px 74px 80px;
+        padding: 48px 74px 48px;
     }
 
     .program-inner {
@@ -77,7 +77,7 @@
 @media (width<1024px) {
     .upskill-uiux {
         .program {
-            padding: 48px 48px 60px;
+            padding: 48px 48px 48px;
         }
 
         .program-inner {
@@ -98,7 +98,7 @@
 @media (width<768px) {
     .upskill-uiux {
         .program {
-            padding: 32px 32px 50px;
+            padding: 32px 32px 48px;
         }
 
         .program-inner {
@@ -131,7 +131,7 @@
 @media (width<640px) {
     .upskill-uiux {
         .program {
-            padding: 32px 16px 50px;
+            padding: 32px 16px 48px;
         }
 
         .program-inner {
@@ -153,7 +153,7 @@
 @media (width<480px) {
     .upskill-uiux {
         .program {
-            padding: 32px 7px 50px;
+            padding: 32px 7px 32px;
         }
 
         .program-card {

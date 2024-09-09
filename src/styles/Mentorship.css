@@ -5,7 +5,7 @@
     }
 
     .mentor {
-        padding: 90px 130px;
+        padding: 64px 130px;
 
     }
 
@@ -182,7 +182,7 @@
 
         .mentor-t-left {
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
         }
 
         .mentor-bc-desc {
